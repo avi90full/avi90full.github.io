@@ -1,0 +1,198 @@
+/*Start Our Attorneys area css*/
+
+#our-team-area {
+
+  width: 100%;
+
+  float: left;
+
+  padding-bottom: 94px;
+
+  padding-top: 95px;
+
+  background-color: #FFF;
+
+}
+
+#our-team-area .section-title-style h1 {
+
+  font-size: 26px;
+
+  color: #000;
+
+  font-weight: normal;
+
+  text-transform: uppercase;
+
+  margin: 0;
+
+  text-align: center;
+
+  padding: 0 0 20px 0;
+
+  letter-spacing: 1px;
+
+  font-weight: bold;
+
+  font-family: "Raleway",sans-serif;
+
+}
+
+.team-image-holder{
+
+  position: relative;
+
+  overflow: hidden;
+
+  width: 20%;
+
+  float: left;
+
+}
+
+.team-image-holder img {
+
+  width: 100%;
+
+}
+
+.team-single:hover .team-overlay {
+
+  opacity: 1;
+
+}
+
+.team-overlay {
+
+  background:rgba(0,0,0,0.6) none repeat scroll 0 0;
+
+  bottom: 0;
+
+  height: 100%;
+
+  left: 0;
+
+  position: absolute;
+
+  right: 0;
+
+  top: 0;
+
+  width: 100%;
+
+  opacity: 0;
+
+}
+
+.team-overlay .social-links {
+
+  text-align: center;
+
+  display: block;
+
+  margin-top: 150px;
+
+}
+
+.social-links i.mysocial_style {
+
+  border: 1px solid #ffffff;
+
+  border-radius: 50%;
+
+  color: #ffffff;
+
+  display: inline-block;
+
+  font-size: 13px;
+
+  height: 30px;
+
+  margin: 0 2px;
+
+  padding-bottom: 0;
+
+  padding-left: 0px;
+
+  padding-top: 9px;
+
+  width: 30px;
+
+}
+
+.social-links i.mysocial_style:hover{
+
+  background:#7abd35;/*#7abd35*/
+
+  border:1px solid #7abd35;
+
+}
+
+.player-name {
+
+  border: 4px solid #096;/*#096*/
+
+  /*background-color: #e23c2a;*/
+
+  padding: 17px;
+
+
+
+  transition: all .5s ease;
+
+  float: left;
+
+width: 77%;
+
+}
+
+.team-single:hover .player-name {
+
+  background: #096;/*#096;*/
+
+  border: 4px solid #000;
+
+}
+
+.team-single:hover .player-name h5 {
+
+  color: #fff;
+
+}
+
+.team-single:hover .player-name p {
+
+  color: #fff;
+
+}
+
+.player-name h5 {
+
+  color: #000;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  text-transform: uppercase;
+
+  transition: all .5s ease;
+
+  margin: 0;
+
+  padding: 0 0 24px 0;
+
+  text-align: left;
+
+}
+
+.player-name p {
+
+  text-align: left;
+
+}
+
+
+
+
+
